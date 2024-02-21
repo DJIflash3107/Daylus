@@ -48,7 +48,7 @@ if (isset($_POST['upload'])) {
             echo "<script>ErrorCustom('image', 'Your image is error!')</script>";
         }
     } else {
-        echo "<script>ErrorCustom('image', 'You cannot upload this file!')</script>";
+        echo "<script>ErrorCustom('image', 'You cannot upload file with type other than jpg, jpeg, or png!')</script>";
     }
 }
 if (isset($_GET['success'])) {
